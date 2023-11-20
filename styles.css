@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.flexContainer{
+    display: flex;
+    max-width: 600px;
+    max-height: 100%;
+    margin:  100px auto;
+    padding: 20px;
+    
+}
+    
+.blueContainer{
+    color: white;
+    width: 1100px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 40px 50px;
+    position: relative;
+    left: 20px;
+    box-shadow: -10px 10px 10px hsl(221, 100%, 96%);
+}
+
+.roundContainer{
+    background-image:linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    max-width: 150px;
+    max-height: 150px;
+    margin: 50px auto;
+    padding: 50px 2px;
+    border-radius: 100%;
+}
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-weight: 500; 
+    opacity: 70%;
+}
+h2{
+    font-weight: 600;
+    
+}
+
+.lastParagraph{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.whiteContainer{
+    width: 1200px;
+    background-color: white;
+    padding: 40px 40px 50px 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 10px 10px 10px hsl(241, 100%, 89%) ;
+    
+}
+.whiteContainer h3{
+    float: left;
+    position: relative;
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 10px
+}
+img{
+    padding: 0px 5px;
+}
+
+.scored{
+    float: right;
+    position: relative;
+    display: flex;
+    color: hsl(224, 30%, 27%);
+}
+
+.obtainable{
+    opacity: 50%;
+}
+
+.trait{
+    float: left;
+    position: relative;
+    display: flex;
+}
+
+.reaction{
+    width: 100%;
+    background-color: hsl(0, 62%, 93%);  
+    border-radius: 6px;
+    color: hsl(0, 100%, 67%);
+    margin-top: 15px;
+    
+}
+
+.memory{
+    width: 100%;
+    background-color: hsl(37, 37%, 91%);  
+    border-radius: 6px;
+    color: hsl(39, 100%, 56%);
+    margin-top: 15px;
+}
+
+.verbal{
+    width: 100%;
+    background-color: hsl(168, 42%, 91%) ; 
+    border-radius: 6px;
+    color: hsl(166, 100%, 37%);
+    margin-top: 15px;
+}
+
+.visual{
+    width: 100%;
+    background-color: hsl(236, 41%, 93%) ; 
+    border-radius: 6px;
+    color: hsl(234, 85%, 45%);
+    margin-top: 15px;
+}
+
+.btn{
+    width: 100%;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    margin-top: 25px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+    .attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+@media only screen and (max-width: 540px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        margin-right: 35px;
+    }
+
+    .blueContainer{
+        width: auto;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        border: 1px solid white;
+        box-shadow: none;
+        
+    }
+    .whiteContainer{
+        width: auto;
+        height: 100%;
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+        box-shadow: none;
+    }
+
+
+}
+@media only screen and (max-width: 340px){
+    ul li{
+            font-size: 11px;
+            padding: 5px;
+        }
+
+        img{
+            padding: 0px 1px;
+        }
+        
+}
+
+            
+
+
+
